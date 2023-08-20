@@ -1,0 +1,196 @@
+body {
+  color: #fff;
+}
+/* Utility clases ############################################################################## */
+
+/* Header content ############################################################################# */
+
+.header {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 97vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.655), rgba(0, 0, 0, 0.644)),
+    url("./img/istockphoto-1322822546-170667a.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* services styling ############################################################################# */
+.s-heading {
+  margin: 3rem;
+  margin-top: 5rem;
+}
+.img-card {
+  width: 22rem;
+  height: 18rem;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+/* testimonial styling ############################################################################## */
+
+.img-testi {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+}
+
+/* footer style ######################################################################################## */
+.icon a {
+  font-size: 2.5rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.icon a i {
+  opacity: 50%;
+}
+.icon a i:hover {
+  opacity: 100%;
+}
+
+/* about styling ############################################################################################ */
+
+.about {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 77vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.645), rgba(0, 0, 0, 0.64)),
+    url("./img/About\ us.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.who-div {
+  max-width: 65%;
+}
+
+.about-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* contact styling ################################################################################### */
+.contact {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 87vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.645), rgba(0, 0, 0, 0.64)),
+    url("./img/Contact\ us.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contact-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ul-li {
+  font-size: 1.5rem;
+  margin-left: 10rem;
+}
+
+/* media quary ####################################################################################### */
+@media screen and (max-width: 1400px) {
+  * {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  * {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 994px) {
+  * {
+    font-size: 16px;
+    margin: auto;
+  }
+  .header {
+    height: 80vh;
+  }
+  .about {
+    height: 70vh;
+  }
+  .contact {
+    height: 80vh;
+  }
+  .who-div {
+    max-width: 100%;
+  }
+  .ul-li {
+    font-size: 1.5rem;
+    margin-left: 7rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  * {
+    font-size: 14px;
+    margin: auto;
+  }
+  .header {
+    height: 70vh;
+  }
+  .about {
+    height: 60vh;
+  }
+  .contact {
+    height: 70vh;
+  }
+  .who-div {
+    max-width: 100%;
+  }
+  .ul-li {
+    font-size: 1.5rem;
+    margin-left: 6rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  * {
+    font-size: 10px;
+    margin: auto;
+  }
+  .header {
+    height: 60vh;
+  }
+  .about {
+    height: 50vh;
+  }
+  .contact {
+    height: 60vh;
+  }
+  .who-div {
+    max-width: 100%;
+  }
+  .ul-li {
+    font-size: 1.5rem;
+    margin-left: 4rem;
+  }
+}
